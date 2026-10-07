@@ -1,0 +1,11 @@
+{
+  // Lets the agents read the Epic when it is a GitHub issue/PR. Sign in when VS Code asks.
+  // For Jira/Confluence or Azure DevOps Epics, add that vendor's MCP server here
+  // (see the README), or paste the Epic text when the orchestrator asks.
+  "servers": {
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/"
+    }
+  }
+}
